@@ -1,0 +1,91 @@
+[{
+        "title": "온택트파트너스문의손님",
+        "category": "온텍트파너스 알림톡",
+        "data": [{
+                "id": "1",
+                "screenEvent": "ZB_SCREEN_VIEW",
+                "screenName": "온택트파트너스문의손님",
+                "description": "온택트파트너스문의손님 화면이 노출 시"
+            },
+            {
+                "id": "2",
+                "screenEvent": "ZB_EVENT_VIEW",
+                "screenName": "온택트파트너스문의손님",
+                "description": "온택트파트너스문의손님 화면에서 [문의손님] 클릭 \n\n content_type : {문의경로} - 온택트파트너스문의손님 화면에서 문의테이블 {문의경로} 컬럼에 있는 값\nstatus : {문의구분} - 온택트파트너스문의손님 화면에서 문의테이블 {문의구분} 컬럼에 있는 값 \nstatus_value : {유형} - 온택트파트너스문의손님 화면에서 문의테이블 {유형} 컬럼에 있는 값",
+                "button_name": "문의손님",
+                "area_danji_id": "{area_danji_id}",
+                "content_type": "{문의경로}",
+                "status": "{문의구분}",
+                "status_value": "{유형}",
+                "inquiry_id": "{inquiry_id}"
+            },
+            {
+                "id": "3",
+                "screenEvent": "ZB_EVENT_CLICK",
+                "screenName": "온택트파트너스문의손님",
+                "description": "온택트파트너스문의손님 화면에서 [문의손님] 클릭 시 문의정보 팝업 화면 노출 시 \ncontent_type : {문의경로} - 온택트파트너스문의손님 화면에서 문의테이블 {문의경로} 컬럼에 있는 값\n\nstatus : {문의구분} - 온택트파트너스문의손님 화면에서 문의테이블 {문의구분} 컬럼에 있는 값 \nstatus_value : {유형} - 온택트파트너스문의손님 화면에서 문의테이블 {유형} 컬럼에 있는 값",
+                "dialog_name": "문의정보",
+                "area_danji_id": "{area_danji_id}",
+                "content_type": "{문의경로}",
+                "status": "{문의구분}",
+                "status_value": "{유형}",
+                "inquiry_id": "{inquiry_id}"
+            },
+            {
+                "id": "4",
+                "screenEvent": "",
+                "screenName": "",
+                "description": "",
+                "button_name": "",
+                "dialog_name": "",
+                "area_danji_id": "",
+                "content_type": "",
+                "status": "",
+                "status_value": "",
+                "inquiry_id": ""
+            }
+        ]
+    },
+    {
+        "title": "온택트파트너스중개의뢰손님",
+        "category": "온텍트파너스 알림톡",
+        "data": [{
+                "id": "11",
+                "screenEvent": "ZB_SCREEN_VIEW",
+                "screenName": "온택트파트너스문의손님",
+                "description": "온택트파트너스중개의뢰손님 화면이 노출 시"
+            },
+            {
+                "id": "12",
+                "screenEvent": "ZB_EVENT_VIEW",
+                "screenName": "온택트파트너스문의손님",
+                "description": "온택트파트너스중개의뢰손님 화면에서 [의뢰손님] 클릭",
+                "button_name": "의뢰손님",
+                "area_danji_id": "{area_danji_id}",
+                "item_id": "{item_id}"
+            },
+            {
+                "id": "13",
+                "screenEvent": "ZB_EVENT_CLICK",
+                "screenName": "온택트파트너스문의손님",
+                "description": "온택트파트너스중개의뢰손님 화면에서 [의뢰손님] 클릭 시 의뢰정보 팝업 화면 노출 시",
+                "dialog_name": "의뢰손님",
+                "area_danji_id": "{area_danji_id}",
+                "item_id": "{item_id}"
+            },
+            {
+                "id": "14",
+                "screenEvent": "",
+                "screenName": "",
+                "description": "",
+                "button_name": "",
+                "dialog_name": "",
+                "area_danji_id": "",
+                "content_type": "",
+                "status": "",
+                "status_value": "",
+                "inquiry_id": ""
+            }
+        ]
+    }
+]
