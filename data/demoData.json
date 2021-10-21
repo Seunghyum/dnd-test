@@ -1,6 +1,7 @@
 [{
         "title": "온택트파트너스문의손님",
         "category": "온텍트파너스 알림톡",
+        "imgUrl": null,
         "data": [{
                 "id": "1",
                 "screenEvent": "ZB_SCREEN_VIEW",
@@ -49,6 +50,7 @@
     {
         "title": "온택트파트너스중개의뢰손님",
         "category": "온텍트파너스 알림톡",
+        "imgUrl": null,
         "data": [{
                 "id": "11",
                 "screenEvent": "ZB_SCREEN_VIEW",
